@@ -1,0 +1,5 @@
+subject,body,sender_domain,has_attachment
+Urgent: Verify Account,Please verify your account immediately to avoid suspension,secure-login-alert.com,True
+Reset Password Now,Click here to reset your password now,verify-now-mail.com,True
+Monthly Newsletter,Welcome to this month's company newsletter,official-company.com,False
+Invoice Attached,Please find attached invoice for review,vendor-mail.com,True
