@@ -16,7 +16,29 @@ This project simulates a workflow that:
 - generates a simple report for review
 
 ## Workflow
-Email Input -> Phishing Detection -> Risk Analysis -> AI Insight -> Alert Generation -> Reporting
+Email Input -> Phishing Detection -> Risk Analysis -> AI Insight -> Alert System -> DashbReporting
+
+![Workflow Diagram](assets/workflow_diagram.PNG) 
+
+## Sample Output
+
+The system generates structured outputs that help identify and monitor phishing risk over time.
+
+
+### Risk Score Trend
+
+![Risk Score Trend](assets/risk_score_chart.PNG)
+
+This chart shows how phishing risk scores vary over time, helping identify unusual spikes in suspicious activity.
+
+---
+
+### Sample Risk Classification Table
+
+![Risk Table](assets/risk_table.png)
+
+This table demonstrates how emails are assigned risk scores and categorized into risk levels (Low, Medium, High) based on detection logic.
+These outputs simulate how the Mail-Shield system supports real-time monitoring and decision-making.
 
 ## Technologies
 - Python
@@ -38,4 +60,4 @@ Email Input -> Phishing Detection -> Risk Analysis -> AI Insight -> Alert Genera
 - Recognized among the Top 100 solutions in a PwC internal innovation competition
 
 ## Note
-This repository contains a sanitized demonstration version created for portfolio purposes. It does not include confidential enterprise data, internal workflows, or proprietary configurations.
+This repository contains a sanitized demonstration version created for portfolio purposes. It does not include confidential enterprise data, internal workflows, or proprietary configurations. 
