@@ -10,13 +10,21 @@ Manual phishing reporting is time-consuming and depends on individual users iden
 
 ## Solution
 This project simulates a workflow that:
-- reads suspicious email records
+- processes incoming email data for suspicious patterns
 - checks for phishing indicators
 - assigns a risk level
 - generates a simple report for review
 
 ## Workflow
-Email Input -> Phishing Detection -> Risk Analysis -> AI Insight -> Alert System -> DashbReporting
+
+1. Email is received in mailbox
+2. Power Automate checks predefined phishing conditions
+3. If triggered, email is marked as suspicious
+4. Alert is sent to Microsoft Teams
+5. Copilot agent assigns risk score
+6. Final alert is shared with cybersecurity team
+   
+Email Input -> Phishing Detection -> Risk Analysis -> AI Insight -> Alert System -> Dashboard Reporting
 
 ![Workflow Diagram](assets/workflow_diagram.PNG) 
 
@@ -46,6 +54,12 @@ These outputs simulate how the Mail-Shield system supports real-time monitoring 
 - Microsoft Power Automate (enterprise implementation)
 - Microsoft Copilot (enterprise implementation)
 - Microsoft 365 ecosystem
+- Basic data analysis and visualization for risk trends
+## Detection Logic
+
+Basic detection logic is implemented using Python for feature analysis and classification.
+
+This is used to understand phishing patterns and supports the rule-based automation workflow.
 
 ## Features
 - rule-based phishing detection
@@ -58,6 +72,11 @@ These outputs simulate how the Mail-Shield system supports real-time monitoring 
 - Reduced reporting time from approximately 5 minutes to near-instant execution
 - Saved approximately 42 business hours per team
 - Recognized among the Top 100 solutions in a PwC internal innovation competition
+
+## Limitations
+
+- Detection is mostly rule-based
+- May generate false positives in some cases
 
 ## Note
 This repository contains a sanitized demonstration version created for portfolio purposes. It does not include confidential enterprise data, internal workflows, or proprietary configurations. 
