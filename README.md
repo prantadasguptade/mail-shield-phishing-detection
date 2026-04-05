@@ -77,7 +77,7 @@ The Python simulation implements rule-based detection across three dimensions:
 > Power Automate flow that ran automatically on incoming M365 mailbox events.
 
 ---
-##📊 Sample Output
+## 📊 Sample Output
 
 The system generates structured outputs that help identify and monitor phishing risk over time.
 
