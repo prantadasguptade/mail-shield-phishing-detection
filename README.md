@@ -61,7 +61,10 @@ Email Input -> Phishing Detection -> Risk Analysis -> AI Insight -> Alert System
 ![Workflow Diagram](assets/workflow_diagram.PNG) 
 
 ---
+### 🔹 Automation Implementation (Power Automate)
+![Power Automate Flow](./assets/power-automate-flow.jpeg)
 
+---
 ## 🧠 Detection Logic
 
 The Python simulation implements rule-based detection across three dimensions:
